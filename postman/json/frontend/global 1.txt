@@ -1,0 +1,38 @@
+   {
+      
+        "companyName": "USA Academy",
+        "courseName": "Frontend Developer CSS",
+        "category": "Development",
+        "courseRating": 3.1,
+        "discount": 10.0,
+        "site": "www.usaacademy.az",
+        "courseStartDate": "2022-01-29",
+        "courseDurationWeeks": 10,
+        "lesson": {
+         
+            "lessonInfo": "Heftede 2 defe saat 19:00 da. Bazar ertesi. Cersenbe axsami,",
+            "lessonDurationHours": 2.0
+        },
+        "price": {
+        
+            "totalPrice": 3500.0,
+            "monthlyPrice": 0.0
+        },
+        "courseTypeEnum": "online",
+        "address": {
+         "global":true,
+            "country": "USA",
+            "city": "NEW York",
+            "district": "New York",
+            "street": " New York Street",
+            "line": " City Point Floor 5"
+        },
+        "finalProject": true,
+        "certificate": {
+         
+            "certificate": true,
+            "global": false
+        },
+        "practice": true,
+        "babyZone": true
+    }

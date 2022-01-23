@@ -1,0 +1,38 @@
+   {
+       
+        "companyName": "Ingress Academy",
+        "courseName": "Frontend Development Javascript",
+        "category": "Development",
+        "courseRating": 4.3,
+        "discount": 10.0,
+        "site": "www.ingressacademy.az",
+        "courseStartDate": "2022-03-28",
+        "courseDurationWeeks": 12,
+        "lesson": {
+      
+            "lessonInfo": "Heftede 2 defe saat 19:00 da. Bazar ertesi. Cume,",
+            "lessonDurationHours": 2.0
+        },
+        "price": {
+          
+            "totalPrice": 1400.0,
+            "monthlyPrice": 0.0
+        },
+        "courseTypeEnum": "both",
+        "address": {
+      
+            "country": "Azerbaijan",
+            "city": "Baku",
+            "district": "Sabail",
+            "street": "Bulbul PR 56A",
+            "line": "Abu Park"
+        },
+        "finalProject": true,
+        "certificate": {
+       
+            "certificate": true,
+            "global": false
+        },
+        "practice": true,
+        "babyZone": true
+    }

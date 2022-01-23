@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Price table
+      author: Yunus Kazimov
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    unique: true
+                    nullable: true
+              - column:
+                  name: monthly_price
+                  type: double precision
+              - column:
+                  name: total_price
+                  type: double precision
+            schemaName: public
+            tableName: price

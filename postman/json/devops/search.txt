@@ -1,0 +1,77 @@
+{
+    "name": "Frontend Developer",
+    "steps": [
+        {
+            "title": "First",
+            "stepName": "CSS",
+            "level": "Middle Level"
+        },
+        {
+            "title": "Second",
+            "stepName": "React",
+            "level": "Middle Level"
+        },
+        {
+            "title": "Third",
+            "stepName": "HTML",
+            "level": "High Level"
+        },
+        {
+            "title": "Fourth",
+            "stepName": "JavaScript",
+            "level": "High Level"
+        }
+
+    ]
+}
+
+
+{
+    "name": "Devops",
+    "steps": [
+        {
+            "title": "First",
+            "stepName": "Linux",
+            "level": "High Level"
+        },
+        {
+            "title": "Second",
+            "stepName": "RHC",
+            "level": "Middle Level"
+        },
+        {
+            "title": "Third",
+            "stepName": "Network",
+            "level": "High Level"
+        },
+        {
+            "title": "Fourth",
+            "stepName": "Development",
+            "level": "MediumLevel Level"
+        }
+
+    ]
+}
+
+
+{
+    "name": "Full Stack Developer",
+    "steps": [
+        {
+            "title": "First",
+            "stepName": "Backend Development",
+            "level": "Medium Level"
+        },
+        {
+            "title": "Second",
+            "stepName": "Frontend Development",
+            "level": "High Level"
+        },
+        {
+            "title": "Third",
+            "stepName": "Linux",
+            "level": "Beginner Level"
+        }
+
+    ]
+}
