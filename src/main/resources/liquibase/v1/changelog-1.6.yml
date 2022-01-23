@@ -1,0 +1,33 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Course table
+      author: Yunus Kazimov
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    unique: true
+                    nullable: true
+              - column:
+                  name: category
+                  type: varchar(64)
+              - column:
+                  name: company_name
+                  type: varchar(128)
+              - column:
+                  name: course_name
+                  type: varchar(128)
+              - column:
+                  name: suggest_step
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_suggest
+                    references: suggest(suggest_id)
+            schemaName: public
+            tableName: suggest_step

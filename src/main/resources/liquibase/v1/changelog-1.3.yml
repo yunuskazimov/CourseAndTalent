@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Course table
+      author: Yunus Kazimov
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    unique: true
+                    nullable: true
+              - column:
+                  name: lesson_duration_hours
+                  type: double precision
+              - column:
+                  name: lesson_info
+                  type: varchar(128)
+            schemaName: public
+            tableName: lesson

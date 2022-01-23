@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Certificate table
+      author: Yunus Kazimov
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    unique: true
+                    nullable: true
+              - column:
+                  name: certificate
+                  type: boolean
+              - column:
+                  name: global
+                  type: boolean
+            schemaName: public
+            tableName: certificate

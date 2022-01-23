@@ -1,0 +1,38 @@
+   {
+      
+        "companyName": "Ingress Academy",
+        "courseName": "Kubernetes",
+        "category": "Devops",
+        "courseRating": 3.7,
+        "discount": 10.0,
+        "site": "www.ingressacademy.az",
+        "courseStartDate": "2022-02-22",
+        "courseDurationWeeks": 6,
+        "lesson": {
+           
+            "lessonInfo": "Heftede 2 defe saat 19:00 da. Bazar ertesi. Cume,",
+            "lessonDurationHours": 2.0
+        },
+        "price": {
+         
+            "totalPrice": 1800.0,
+            "monthlyPrice": 0.0
+        },
+        "courseTypeEnum": "both",
+        "address": {
+       
+            "country": "Azerbaijan",
+            "city": "Baku",
+            "district": "Sabail",
+            "street": "Bulbul PR 56A",
+            "line": "Abu Park"
+        },
+        "finalProject": true,
+        "certificate": {
+          
+            "certificate": true,
+            "global": false
+        },
+        "practice": true,
+        "babyZone": true
+    }

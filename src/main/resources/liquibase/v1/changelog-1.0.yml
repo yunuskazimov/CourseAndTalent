@@ -1,0 +1,90 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Course table
+      author: Yunus Kazimov
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    unique: true
+                    nullable: true
+              - column:
+                  name: baby_zone
+                  type: boolean
+              - column:
+                  name: category
+                  type: varchar(64)
+              - column:
+                  name: company_name
+                  type: varchar(128)
+              - column:
+                  name: course_duration_weeks
+                  type: double precision
+              - column:
+                  name: course_name
+                  type: varchar(128)
+              - column:
+                  name: course_rating
+                  type: double precision
+              - column:
+                  name: course_start_date
+                  type: date
+              - column:
+                  name: course_type_enum
+                  type: varchar(64)
+              - column:
+                  name: discount
+                  type: double precision
+              - column:
+                  name: final_project
+                  type: boolean
+              - column:
+                  name: practice
+                  type: boolean
+              - column:
+                  name: search_key
+                  type: varchar(256)
+              - column:
+                  name: site
+                  type: varchar(255)
+              - column:
+                  name: location
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_location
+                    references: location(location_id)
+              - column:
+                  name: certificate
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_certificate
+                    references: certificate(certificate_id)
+              - column:
+                  name: lesson
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_lesson
+                    references: lesson(lesson_id)
+              - column:
+                  name: price
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_price
+                    references: price(price_id)
+              - column:
+                  name: created_at
+                  type: timestamp
+              - column:
+                  name: updated_at
+                  type: timestamp
+            schemaName: public
+            tableName: courses
