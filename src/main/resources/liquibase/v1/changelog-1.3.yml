@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: Create Course table
+      id: Create lesson table
       author: Yunus Kazimov
       changes:
         - createTable:

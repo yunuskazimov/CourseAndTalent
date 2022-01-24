@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: Create Course table
+      id: Create suggest_step table
       author: Yunus Kazimov
       changes:
         - createTable:
