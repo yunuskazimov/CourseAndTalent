@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: Create Adress table
+      id: Create Address table
       author: Yunus Kazimov
       changes:
         - createTable:
@@ -31,5 +31,8 @@ databaseChangeLog:
               - column:
                   name: country
                   type: varchar(128)
+              - column:
+                  name: global
+                  type: boolean
             schemaName: public
             tableName: address

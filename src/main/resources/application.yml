@@ -2,7 +2,7 @@ spring:
   datasource:
     username: xazar1
     password: xazar1
-    url: jdbc:postgresql://localhost:5400/course
+    url: jdbc:postgresql://80.69.59.77:5400/course
   jpa:
     hibernate:
       ddl-auto: update
